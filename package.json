@@ -1,0 +1,15 @@
+{
+  "name": "iniciandocomnode",
+  "version": "1.0.0",
+  "description": "Primeiro projeto 2022 CodeDrops",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Mitalo Ammon R Ribeiro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}

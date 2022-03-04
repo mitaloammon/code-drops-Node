@@ -1,0 +1,28 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "yellow pan",
+    "price": 12
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/bc11cb17-690d-4a82-a028-21cb8efada29
+
+###
+
+PUT http://localhost:4002/products/9d4536e8-3183-463d-a20d-e13fec50c641
+content-type: application/json
+
+{
+    "name": "Caderno amarelo",
+    "price": 5.00
+}
+
+###
+DELETE http://localhost:4002/products/e6158638-e061-4e08-9c9f-9d9213e1ed63
